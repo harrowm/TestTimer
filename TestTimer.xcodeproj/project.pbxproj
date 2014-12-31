@@ -7,34 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D4E050711A5376BD0026E0C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E050701A5376BD0026E0C7 /* AppDelegate.m */; };
-		D4E050731A5376BD0026E0C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E050721A5376BD0026E0C7 /* main.m */; };
-		D4E050751A5376BD0026E0C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4E050741A5376BD0026E0C7 /* Images.xcassets */; };
-		D4E050781A5376BD0026E0C7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4E050761A5376BD0026E0C7 /* MainMenu.xib */; };
-		D4E050841A5376BD0026E0C7 /* TestTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E050831A5376BD0026E0C7 /* TestTimerTests.m */; };
+		D4DD26071A537BA900B67714 /* liballegro_acodec-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DD25F91A537BA900B67714 /* liballegro_acodec-static.a */; };
+		D4DD26081A537BA900B67714 /* liballegro_audio-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DD25FA1A537BA900B67714 /* liballegro_audio-static.a */; };
+		D4DD26091A537BA900B67714 /* liballegro_color-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DD25FB1A537BA900B67714 /* liballegro_color-static.a */; };
+		D4DD260A1A537BA900B67714 /* liballegro_dialog-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DD25FC1A537BA900B67714 /* liballegro_dialog-static.a */; };
+		D4DD260B1A537BA900B67714 /* liballegro_font-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DD25FD1A537BA900B67714 /* liballegro_font-static.a */; };
+		D4DD260C1A537BA900B67714 /* liballegro_image-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DD25FE1A537BA900B67714 /* liballegro_image-static.a */; };
+		D4DD260D1A537BA900B67714 /* liballegro_main-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DD25FF1A537BA900B67714 /* liballegro_main-static.a */; };
+		D4DD260E1A537BA900B67714 /* liballegro_memfile-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DD26001A537BA900B67714 /* liballegro_memfile-static.a */; };
+		D4DD260F1A537BA900B67714 /* liballegro_physfs-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DD26011A537BA900B67714 /* liballegro_physfs-static.a */; };
+		D4DD26101A537BA900B67714 /* liballegro_primitives-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DD26021A537BA900B67714 /* liballegro_primitives-static.a */; };
+		D4DD26111A537BA900B67714 /* liballegro_ttf-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DD26031A537BA900B67714 /* liballegro_ttf-static.a */; };
+		D4DD26121A537BA900B67714 /* liballegro-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DD26041A537BA900B67714 /* liballegro-static.a */; };
+		D4DD26131A537BA900B67714 /* libdumb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DD26051A537BA900B67714 /* libdumb.a */; };
+		D4DD26161A537BC200B67714 /* libfreetype.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DD26151A537BC200B67714 /* libfreetype.a */; };
+		D4DD261E1A537C1E00B67714 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DD26171A537C1E00B67714 /* AppKit.framework */; };
+		D4DD261F1A537C1E00B67714 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DD26181A537C1E00B67714 /* ApplicationServices.framework */; };
+		D4DD26201A537C1E00B67714 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DD26191A537C1E00B67714 /* AudioToolbox.framework */; };
+		D4DD26211A537C1E00B67714 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DD261A1A537C1E00B67714 /* CoreFoundation.framework */; };
+		D4DD26221A537C1E00B67714 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DD261B1A537C1E00B67714 /* IOKit.framework */; };
+		D4DD26231A537C1E00B67714 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DD261C1A537C1E00B67714 /* OpenAL.framework */; };
+		D4DD26241A537C1E00B67714 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DD261D1A537C1E00B67714 /* OpenGL.framework */; };
+		D4E0508E1A5377180026E0C7 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = D4E0508D1A5377180026E0C7 /* main.c */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		D4E0507E1A5376BD0026E0C7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D4E050621A5376BD0026E0C7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D4E050691A5376BD0026E0C7;
-			remoteInfo = TestTimer;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		D4DD25F91A537BA900B67714 /* liballegro_acodec-static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "liballegro_acodec-static.a"; path = "../../../../usr/local/lib/liballegro_acodec-static.a"; sourceTree = "<group>"; };
+		D4DD25FA1A537BA900B67714 /* liballegro_audio-static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "liballegro_audio-static.a"; path = "../../../../usr/local/lib/liballegro_audio-static.a"; sourceTree = "<group>"; };
+		D4DD25FB1A537BA900B67714 /* liballegro_color-static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "liballegro_color-static.a"; path = "../../../../usr/local/lib/liballegro_color-static.a"; sourceTree = "<group>"; };
+		D4DD25FC1A537BA900B67714 /* liballegro_dialog-static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "liballegro_dialog-static.a"; path = "../../../../usr/local/lib/liballegro_dialog-static.a"; sourceTree = "<group>"; };
+		D4DD25FD1A537BA900B67714 /* liballegro_font-static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "liballegro_font-static.a"; path = "../../../../usr/local/lib/liballegro_font-static.a"; sourceTree = "<group>"; };
+		D4DD25FE1A537BA900B67714 /* liballegro_image-static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "liballegro_image-static.a"; path = "../../../../usr/local/lib/liballegro_image-static.a"; sourceTree = "<group>"; };
+		D4DD25FF1A537BA900B67714 /* liballegro_main-static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "liballegro_main-static.a"; path = "../../../../usr/local/lib/liballegro_main-static.a"; sourceTree = "<group>"; };
+		D4DD26001A537BA900B67714 /* liballegro_memfile-static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "liballegro_memfile-static.a"; path = "../../../../usr/local/lib/liballegro_memfile-static.a"; sourceTree = "<group>"; };
+		D4DD26011A537BA900B67714 /* liballegro_physfs-static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "liballegro_physfs-static.a"; path = "../../../../usr/local/lib/liballegro_physfs-static.a"; sourceTree = "<group>"; };
+		D4DD26021A537BA900B67714 /* liballegro_primitives-static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "liballegro_primitives-static.a"; path = "../../../../usr/local/lib/liballegro_primitives-static.a"; sourceTree = "<group>"; };
+		D4DD26031A537BA900B67714 /* liballegro_ttf-static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "liballegro_ttf-static.a"; path = "../../../../usr/local/lib/liballegro_ttf-static.a"; sourceTree = "<group>"; };
+		D4DD26041A537BA900B67714 /* liballegro-static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "liballegro-static.a"; path = "../../../../usr/local/lib/liballegro-static.a"; sourceTree = "<group>"; };
+		D4DD26051A537BA900B67714 /* libdumb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdumb.a; path = ../../../../usr/local/lib/libdumb.a; sourceTree = "<group>"; };
+		D4DD26061A537BA900B67714 /* libfreetype.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfreetype.6.dylib; path = ../../../../usr/local/lib/libfreetype.6.dylib; sourceTree = "<group>"; };
+		D4DD26151A537BC200B67714 /* libfreetype.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfreetype.a; path = ../../../../usr/local/lib/libfreetype.a; sourceTree = "<group>"; };
+		D4DD26171A537C1E00B67714 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D4DD26181A537C1E00B67714 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		D4DD26191A537C1E00B67714 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D4DD261A1A537C1E00B67714 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		D4DD261B1A537C1E00B67714 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		D4DD261C1A537C1E00B67714 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		D4DD261D1A537C1E00B67714 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		D4E0506A1A5376BD0026E0C7 /* TestTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4E0506E1A5376BD0026E0C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D4E0506F1A5376BD0026E0C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D4E050701A5376BD0026E0C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D4E050721A5376BD0026E0C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D4E050741A5376BD0026E0C7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		D4E050771A5376BD0026E0C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		D4E0507D1A5376BD0026E0C7 /* TestTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D4E050821A5376BD0026E0C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D4E050831A5376BD0026E0C7 /* TestTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTimerTests.m; sourceTree = "<group>"; };
+		D4E0508D1A5377180026E0C7 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,13 +64,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D4E0507A1A5376BD0026E0C7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				D4DD261E1A537C1E00B67714 /* AppKit.framework in Frameworks */,
+				D4DD261F1A537C1E00B67714 /* ApplicationServices.framework in Frameworks */,
+				D4DD26201A537C1E00B67714 /* AudioToolbox.framework in Frameworks */,
+				D4DD26211A537C1E00B67714 /* CoreFoundation.framework in Frameworks */,
+				D4DD26221A537C1E00B67714 /* IOKit.framework in Frameworks */,
+				D4DD26231A537C1E00B67714 /* OpenAL.framework in Frameworks */,
+				D4DD26241A537C1E00B67714 /* OpenGL.framework in Frameworks */,
+				D4DD26071A537BA900B67714 /* liballegro_acodec-static.a in Frameworks */,
+				D4DD26081A537BA900B67714 /* liballegro_audio-static.a in Frameworks */,
+				D4DD26091A537BA900B67714 /* liballegro_color-static.a in Frameworks */,
+				D4DD260A1A537BA900B67714 /* liballegro_dialog-static.a in Frameworks */,
+				D4DD260B1A537BA900B67714 /* liballegro_font-static.a in Frameworks */,
+				D4DD260C1A537BA900B67714 /* liballegro_image-static.a in Frameworks */,
+				D4DD260D1A537BA900B67714 /* liballegro_main-static.a in Frameworks */,
+				D4DD260E1A537BA900B67714 /* liballegro_memfile-static.a in Frameworks */,
+				D4DD260F1A537BA900B67714 /* liballegro_physfs-static.a in Frameworks */,
+				D4DD26101A537BA900B67714 /* liballegro_primitives-static.a in Frameworks */,
+				D4DD26161A537BC200B67714 /* libfreetype.a in Frameworks */,
+				D4DD26111A537BA900B67714 /* liballegro_ttf-static.a in Frameworks */,
+				D4DD26121A537BA900B67714 /* liballegro-static.a in Frameworks */,
+				D4DD26131A537BA900B67714 /* libdumb.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,8 +94,29 @@
 		D4E050611A5376BD0026E0C7 = {
 			isa = PBXGroup;
 			children = (
+				D4DD26171A537C1E00B67714 /* AppKit.framework */,
+				D4DD26181A537C1E00B67714 /* ApplicationServices.framework */,
+				D4DD26191A537C1E00B67714 /* AudioToolbox.framework */,
+				D4DD261A1A537C1E00B67714 /* CoreFoundation.framework */,
+				D4DD261B1A537C1E00B67714 /* IOKit.framework */,
+				D4DD261C1A537C1E00B67714 /* OpenAL.framework */,
+				D4DD261D1A537C1E00B67714 /* OpenGL.framework */,
+				D4DD26151A537BC200B67714 /* libfreetype.a */,
+				D4DD25F91A537BA900B67714 /* liballegro_acodec-static.a */,
+				D4DD25FA1A537BA900B67714 /* liballegro_audio-static.a */,
+				D4DD25FB1A537BA900B67714 /* liballegro_color-static.a */,
+				D4DD25FC1A537BA900B67714 /* liballegro_dialog-static.a */,
+				D4DD25FD1A537BA900B67714 /* liballegro_font-static.a */,
+				D4DD25FE1A537BA900B67714 /* liballegro_image-static.a */,
+				D4DD25FF1A537BA900B67714 /* liballegro_main-static.a */,
+				D4DD26001A537BA900B67714 /* liballegro_memfile-static.a */,
+				D4DD26011A537BA900B67714 /* liballegro_physfs-static.a */,
+				D4DD26021A537BA900B67714 /* liballegro_primitives-static.a */,
+				D4DD26031A537BA900B67714 /* liballegro_ttf-static.a */,
+				D4DD26041A537BA900B67714 /* liballegro-static.a */,
+				D4DD26051A537BA900B67714 /* libdumb.a */,
+				D4DD26061A537BA900B67714 /* libfreetype.6.dylib */,
 				D4E0506C1A5376BD0026E0C7 /* TestTimer */,
-				D4E050801A5376BD0026E0C7 /* TestTimerTests */,
 				D4E0506B1A5376BD0026E0C7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,7 +125,6 @@
 			isa = PBXGroup;
 			children = (
 				D4E0506A1A5376BD0026E0C7 /* TestTimer.app */,
-				D4E0507D1A5376BD0026E0C7 /* TestTimerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,10 +132,6 @@
 		D4E0506C1A5376BD0026E0C7 /* TestTimer */ = {
 			isa = PBXGroup;
 			children = (
-				D4E0506F1A5376BD0026E0C7 /* AppDelegate.h */,
-				D4E050701A5376BD0026E0C7 /* AppDelegate.m */,
-				D4E050741A5376BD0026E0C7 /* Images.xcassets */,
-				D4E050761A5376BD0026E0C7 /* MainMenu.xib */,
 				D4E0506D1A5376BD0026E0C7 /* Supporting Files */,
 			);
 			path = TestTimer;
@@ -89,24 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				D4E0506E1A5376BD0026E0C7 /* Info.plist */,
-				D4E050721A5376BD0026E0C7 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		D4E050801A5376BD0026E0C7 /* TestTimerTests */ = {
-			isa = PBXGroup;
-			children = (
-				D4E050831A5376BD0026E0C7 /* TestTimerTests.m */,
-				D4E050811A5376BD0026E0C7 /* Supporting Files */,
-			);
-			path = TestTimerTests;
-			sourceTree = "<group>";
-		};
-		D4E050811A5376BD0026E0C7 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				D4E050821A5376BD0026E0C7 /* Info.plist */,
+				D4E0508D1A5377180026E0C7 /* main.c */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -131,24 +166,6 @@
 			productReference = D4E0506A1A5376BD0026E0C7 /* TestTimer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D4E0507C1A5376BD0026E0C7 /* TestTimerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D4E0508A1A5376BD0026E0C7 /* Build configuration list for PBXNativeTarget "TestTimerTests" */;
-			buildPhases = (
-				D4E050791A5376BD0026E0C7 /* Sources */,
-				D4E0507A1A5376BD0026E0C7 /* Frameworks */,
-				D4E0507B1A5376BD0026E0C7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D4E0507F1A5376BD0026E0C7 /* PBXTargetDependency */,
-			);
-			name = TestTimerTests;
-			productName = TestTimerTests;
-			productReference = D4E0507D1A5376BD0026E0C7 /* TestTimerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -160,10 +177,6 @@
 				TargetAttributes = {
 					D4E050691A5376BD0026E0C7 = {
 						CreatedOnToolsVersion = 6.1.1;
-					};
-					D4E0507C1A5376BD0026E0C7 = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = D4E050691A5376BD0026E0C7;
 					};
 				};
 			};
@@ -181,22 +194,12 @@
 			projectRoot = "";
 			targets = (
 				D4E050691A5376BD0026E0C7 /* TestTimer */,
-				D4E0507C1A5376BD0026E0C7 /* TestTimerTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		D4E050681A5376BD0026E0C7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D4E050751A5376BD0026E0C7 /* Images.xcassets in Resources */,
-				D4E050781A5376BD0026E0C7 /* MainMenu.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D4E0507B1A5376BD0026E0C7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -210,39 +213,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4E050731A5376BD0026E0C7 /* main.m in Sources */,
-				D4E050711A5376BD0026E0C7 /* AppDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D4E050791A5376BD0026E0C7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D4E050841A5376BD0026E0C7 /* TestTimerTests.m in Sources */,
+				D4E0508E1A5377180026E0C7 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D4E0507F1A5376BD0026E0C7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D4E050691A5376BD0026E0C7 /* TestTimer */;
-			targetProxy = D4E0507E1A5376BD0026E0C7 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		D4E050761A5376BD0026E0C7 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D4E050771A5376BD0026E0C7 /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D4E050851A5376BD0026E0C7 /* Debug */ = {
@@ -279,6 +254,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include/allegro5,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -315,6 +297,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include/allegro5,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
@@ -343,42 +332,6 @@
 			};
 			name = Release;
 		};
-		D4E0508B1A5376BD0026E0C7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = TestTimerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestTimer.app/Contents/MacOS/TestTimer";
-			};
-			name = Debug;
-		};
-		D4E0508C1A5376BD0026E0C7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = TestTimerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestTimer.app/Contents/MacOS/TestTimer";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -398,14 +351,7 @@
 				D4E050891A5376BD0026E0C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		D4E0508A1A5376BD0026E0C7 /* Build configuration list for PBXNativeTarget "TestTimerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D4E0508B1A5376BD0026E0C7 /* Debug */,
-				D4E0508C1A5376BD0026E0C7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
