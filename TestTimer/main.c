@@ -56,7 +56,7 @@ int main(int argc, char **argv)
             printf("\n");
         }
         
-        if (counter == 11)
+        if (counter == 15)
         {
             al_set_timer_speed(timer, 1.0/5);
             printf("\n");
