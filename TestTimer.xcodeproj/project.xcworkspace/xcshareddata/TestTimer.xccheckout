@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8112050F-594A-4A5E-91A8-B052100A5A73</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TestTimer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B8ADF4FEA9562C510EEAED71BF4884C0AED2080E</key>
+		<string>https://github.com/harrowm/TestTimer</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TestTimer.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B8ADF4FEA9562C510EEAED71BF4884C0AED2080E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/harrowm/TestTimer</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B8ADF4FEA9562C510EEAED71BF4884C0AED2080E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B8ADF4FEA9562C510EEAED71BF4884C0AED2080E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TestTimer</string>
+		</dict>
+	</array>
+</dict>
+</plist>
