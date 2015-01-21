@@ -20,7 +20,6 @@
 		D4DD26111A537BA900B67714 /* liballegro_ttf-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DD26031A537BA900B67714 /* liballegro_ttf-static.a */; };
 		D4DD26121A537BA900B67714 /* liballegro-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DD26041A537BA900B67714 /* liballegro-static.a */; };
 		D4DD26131A537BA900B67714 /* libdumb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DD26051A537BA900B67714 /* libdumb.a */; };
-		D4DD26161A537BC200B67714 /* libfreetype.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DD26151A537BC200B67714 /* libfreetype.a */; };
 		D4DD261E1A537C1E00B67714 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DD26171A537C1E00B67714 /* AppKit.framework */; };
 		D4DD261F1A537C1E00B67714 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DD26181A537C1E00B67714 /* ApplicationServices.framework */; };
 		D4DD26201A537C1E00B67714 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DD26191A537C1E00B67714 /* AudioToolbox.framework */; };
@@ -45,8 +44,6 @@
 		D4DD26031A537BA900B67714 /* liballegro_ttf-static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "liballegro_ttf-static.a"; path = "../../../../usr/local/lib/liballegro_ttf-static.a"; sourceTree = "<group>"; };
 		D4DD26041A537BA900B67714 /* liballegro-static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "liballegro-static.a"; path = "../../../../usr/local/lib/liballegro-static.a"; sourceTree = "<group>"; };
 		D4DD26051A537BA900B67714 /* libdumb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdumb.a; path = ../../../../usr/local/lib/libdumb.a; sourceTree = "<group>"; };
-		D4DD26061A537BA900B67714 /* libfreetype.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfreetype.6.dylib; path = ../../../../usr/local/lib/libfreetype.6.dylib; sourceTree = "<group>"; };
-		D4DD26151A537BC200B67714 /* libfreetype.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfreetype.a; path = ../../../../usr/local/lib/libfreetype.a; sourceTree = "<group>"; };
 		D4DD26171A537C1E00B67714 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		D4DD26181A537C1E00B67714 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
 		D4DD26191A537C1E00B67714 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -81,7 +78,6 @@
 				D4DD260E1A537BA900B67714 /* liballegro_memfile-static.a in Frameworks */,
 				D4DD260F1A537BA900B67714 /* liballegro_physfs-static.a in Frameworks */,
 				D4DD26101A537BA900B67714 /* liballegro_primitives-static.a in Frameworks */,
-				D4DD26161A537BC200B67714 /* libfreetype.a in Frameworks */,
 				D4DD26111A537BA900B67714 /* liballegro_ttf-static.a in Frameworks */,
 				D4DD26121A537BA900B67714 /* liballegro-static.a in Frameworks */,
 				D4DD26131A537BA900B67714 /* libdumb.a in Frameworks */,
@@ -101,7 +97,6 @@
 				D4DD261B1A537C1E00B67714 /* IOKit.framework */,
 				D4DD261C1A537C1E00B67714 /* OpenAL.framework */,
 				D4DD261D1A537C1E00B67714 /* OpenGL.framework */,
-				D4DD26151A537BC200B67714 /* libfreetype.a */,
 				D4DD25F91A537BA900B67714 /* liballegro_acodec-static.a */,
 				D4DD25FA1A537BA900B67714 /* liballegro_audio-static.a */,
 				D4DD25FB1A537BA900B67714 /* liballegro_color-static.a */,
@@ -115,7 +110,6 @@
 				D4DD26031A537BA900B67714 /* liballegro_ttf-static.a */,
 				D4DD26041A537BA900B67714 /* liballegro-static.a */,
 				D4DD26051A537BA900B67714 /* libdumb.a */,
-				D4DD26061A537BA900B67714 /* libfreetype.6.dylib */,
 				D4E0506C1A5376BD0026E0C7 /* TestTimer */,
 				D4E0506B1A5376BD0026E0C7 /* Products */,
 			);
